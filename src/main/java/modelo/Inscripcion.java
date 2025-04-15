@@ -1,3 +1,5 @@
+package modelo;
+
 import java.time.LocalDate;
 
 public class Inscripcion {
@@ -32,5 +34,13 @@ public class Inscripcion {
 
     public boolean estaInscripto(Participante participante) {
         return this.participante.equals(participante);
+    }
+
+    public String obtenerRegistro() {
+        return fechaInscripcion + "," + participante.getId() + "," + concurso.getId();
+    }
+
+    public Participante getParticipante() {
+        return participante;
     }
 }
