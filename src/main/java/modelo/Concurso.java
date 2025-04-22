@@ -1,7 +1,7 @@
 package modelo;
 
 import api.NotificacionService;
-import persistencia.Almacenamamiento;
+import persistencia.Almacenamiento;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -13,11 +13,11 @@ public class Concurso {
     private LocalDate fechaInicio;
     private LocalDate fechaFin;
     private List<Inscripcion> inscriptos;
-    private Almacenamamiento almacenamamiento;
+    private Almacenamiento almacenamamiento;
     private NotificacionService notificacion;
     private final String MENSAJE = "Usted se ha registrado correctamente al concurso";
 
-    public Concurso(String id, String nombre, LocalDate fechaInicio, LocalDate fechaFin, Almacenamamiento almacenamamiento, NotificacionService notificacion) {
+    public Concurso(String id, String nombre, LocalDate fechaInicio, LocalDate fechaFin, Almacenamiento almacenamamiento, NotificacionService notificacion) {
         this.id = id;
         this.nombre = nombre;
         this.fechaInicio = fechaInicio;

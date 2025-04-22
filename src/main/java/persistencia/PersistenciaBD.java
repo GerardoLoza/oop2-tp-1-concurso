@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class PersistenciaBD implements Almacenamamiento {
+public class PersistenciaBD implements Almacenamiento {
     @Override
     public void registrar(String registro) {
         String sql = "INSERT INTO registro (fecha_inscripcion, id_participante, id_concurso) VALUES (?, ?, ?)";

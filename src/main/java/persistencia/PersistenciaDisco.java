@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class PersistenciaDisco implements Almacenamamiento {
+public class PersistenciaDisco implements Almacenamiento {
     private String ruta;
 
     public PersistenciaDisco(String ruta) {

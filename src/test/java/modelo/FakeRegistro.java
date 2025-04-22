@@ -1,8 +1,8 @@
 package modelo;
 
-import persistencia.Almacenamamiento;
+import persistencia.Almacenamiento;
 
-public class FakeRegistro implements Almacenamamiento {
+public class FakeRegistro implements Almacenamiento {
     private String contenido;
 
     @Override

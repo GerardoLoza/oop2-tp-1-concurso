@@ -1,5 +1,5 @@
 package persistencia;
 
-public interface Almacenamamiento {
+public interface Almacenamiento {
     void registrar(String registro);
 }

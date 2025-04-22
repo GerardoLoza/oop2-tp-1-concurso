@@ -9,7 +9,7 @@ public class MySQLConnection {
     private static final String URL_DB = "jdbc:mysql://localhost:3306/";
     private static final String DB = "baseobjetos";
     private static final String USER = "root";
-    private static final String PASS = "Elbananero123";
+    private static final String PASS = "admin";
     private static Connection conn = null;
 
     public static void connect() {
